@@ -5,7 +5,8 @@ import time
 block_data = "Hello, this is my first Bitcoin mining project"
 
 # Difficulty = number of leading zeros required
-difficulty = 5
+difficulty = int(input("Enter mining difficulty (e.g. 4 or 5): "))
+
 
 start_time = time.time()
 nonce = 0
